@@ -1,11 +1,11 @@
 {
   "name": "xl-chart",
-  "version": "1.1.4",
-  "description": "",
+  "version": "1.1.7",
+  "description": "```\r npm install xl-chart --save-dev\r ```",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "./node_modules/.bin/babel src --out-dir dist"
+    "build": "babel src --out-dir dist"
   },
   "author": "",
   "license": "MIT",
@@ -18,7 +18,7 @@
   "homepage": "https://github.com/xiaolu521/xiaolu-chart",
   "repository": {
     "type": "git",
-    "url": "https://github.com/xiaolu521/xiaolu-chart",
+    "url": "git+https://github.com/xiaolu521/xiaolu-chart.git",
     "directory": "xiaolu521/xiaolu-chart"
   },
   "devDependencies": {
