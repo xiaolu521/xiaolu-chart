@@ -5,7 +5,7 @@ npm install xl-chart --save-dev
 
 # import
 ```
-import * as xlChart  from "xl-chart"
+import xlChart  from "xl-chart"
 ```
 
 # use
