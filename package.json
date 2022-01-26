@@ -1,6 +1,6 @@
 {
   "name": "xl-chart",
-  "version": "1.1.7",
+  "version": "1.1.12",
   "description": "```\r npm install xl-chart --save-dev\r ```",
   "main": "dist/index.js",
   "scripts": {
