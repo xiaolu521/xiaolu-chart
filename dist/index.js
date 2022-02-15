@@ -1,3 +1,24 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _BarExtreme = _interopRequireDefault(require("./lib/BarExtreme"));
+
+var _BarGrey = _interopRequireDefault(require("./lib/BarGrey"));
+
+var _Normal = _interopRequireDefault(require("./lib/Normal"));
+
+var _Pie = _interopRequireDefault(require("./lib/Pie"));
+
+var _StackX = _interopRequireDefault(require("./lib/StackX"));
+
+var _StackY = _interopRequireDefault(require("./lib/StackY"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
 /*
  * MIT License
  *
@@ -23,59 +44,12 @@
  * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  *
  */
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-Object.defineProperty(exports, "BarExtreme", {
-  enumerable: true,
-  get: function get() {
-    return _BarExtreme.default;
-  }
-});
-Object.defineProperty(exports, "BarGrey", {
-  enumerable: true,
-  get: function get() {
-    return _BarGrey.default;
-  }
-});
-Object.defineProperty(exports, "Normal", {
-  enumerable: true,
-  get: function get() {
-    return _Normal.default;
-  }
-});
-Object.defineProperty(exports, "Pie", {
-  enumerable: true,
-  get: function get() {
-    return _Pie.default;
-  }
-});
-Object.defineProperty(exports, "StackX", {
-  enumerable: true,
-  get: function get() {
-    return _StackX.default;
-  }
-});
-Object.defineProperty(exports, "StackY", {
-  enumerable: true,
-  get: function get() {
-    return _StackY.default;
-  }
-});
-
-var _BarExtreme = _interopRequireDefault(require("./lib/BarExtreme"));
-
-var _BarGrey = _interopRequireDefault(require("./lib/BarGrey"));
-
-var _Normal = _interopRequireDefault(require("./lib/Normal"));
-
-var _Pie = _interopRequireDefault(require("./lib/Pie"));
-
-var _StackX = _interopRequireDefault(require("./lib/StackX"));
-
-var _StackY = _interopRequireDefault(require("./lib/StackY"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+var _default = {
+  BarExtreme: _BarExtreme.default,
+  BarGrey: _BarGrey.default,
+  Normal: _Normal.default,
+  Pie: _Pie.default,
+  StackX: _StackX.default,
+  StackY: _StackY.default
+};
+exports.default = _default;

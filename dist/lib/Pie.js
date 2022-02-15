@@ -1,3 +1,16 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+require("core-js/modules/es.number.to-fixed.js");
+
+var _Util = _interopRequireDefault(require("./Util"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
 /*
  * MIT License
  *
@@ -23,20 +36,6 @@
  * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  *
  */
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-require("core-js/modules/es.number.to-fixed.js");
-
-var _Util = _interopRequireDefault(require("./Util"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
 class Pie extends _Util.default {
   constructor(el, option) {
     super(el, option);
